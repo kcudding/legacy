@@ -21,13 +21,12 @@ Legacy effects of ecosystem engineering are changes to the physical environment 
 
 3. Even legacies of of the same type of ecosystem engineering can have different duration
 	1.  In part the duration of the impact will be due to the particular environmental conditions, as we can see from the decay rate in simple models engineering (Cuddington et al 2009).  Engineering effects may not persist in high-energy systems, for example a burrow in a sandy intertidal region with high wave energy will quickly be filled in in the absence of the engineering species. Where the decay rate of engineered impacts is slow, however, we may have a long transient as the system relaxes to its pre-engineered state.
-	2.  On the other hand, Reynolds et al. (2017) found both transient and persistent impacts of the same engineer (*Spartina spp.*), where the decay rate of buried roots was slow (long transient), while other impacts of the engineer persisted (alternate stable state) because of feedback in the form of other invaders that had been facilitated by the actions of the original engineer species. Similarly, positive feedbacks from subsequent soil engineers (ants, termites, earthworms, and woody plants) following agricultural activities can cause persistent physical change (McKey et al. 2010) .
-
-4.  We can clarify these issues by modelling the timescales of ecosystem engineering
-	1.  We can consider that the engineering impacts could occur on a faster timescale than the dynamics of the engineer population, or on a slower timescale, or the same scale. This scaling will be determined by the environmental decay rates relative to the population dynamics of the engineering species.
-	2.  It may be that legacy effects correspond specifically to the case were the timescale of decay is slower than population responses; although, this is not necessarily the case:
-		1.  Where engineering and population dynamics occur on the same scale, there may be dynamic behaviours that produce long transients in the dynamics of ecosystem states (e.g., saddle-nodes crawlbys, Hastings et al. 2018)
-		2.  There may also be alternative stable states, where the engineered state has feedbacks that allow it to persist independently of the original engineer population
+	2.  On the other hand, Reynolds et al. (2017) found both transient and persistent impacts of the same engineer (*Spartina spp.*), where the decay rate of buried roots was slow (long transient), while other impacts of the engineer persisted (alternate stable state) because of feedback in the form of other invaders that had been facilitated by the actions of the original engineer species. Similarly, positive feedbacks from subsequent soil engineers (ants, termites, earthworms, and woody plants) following agricultural activities can cause persistent physical change (McKey et al. 2010).
+4.  We can clarify these issues by modelling the timescales of ecosystem engineering
+	1.  We can consider that the engineering impacts could occur on a faster timescale than the dynamics of the engineer population, or on a slower timescale, or the same scale. This scaling will be determined by the environmental decay rates relative to the population dynamics of the engineering species.
+	2.  It may be that legacy effects correspond specifically to the case were the timescale of decay is slower than population responses; although, this is not necessarily the case:
+		1.  Where engineering and population dynamics occur on the same scale, there may be dynamic behaviours that produce long transients in the dynamics of ecosystem states (e.g., saddle-nodes crawlbys, Hastings et al. 2018)
+		2.  There may also be alternative stable states, where the engineered state has feedbacks that allow it to persist independently of the original engineer population
 
 ### Literature cited
 
