@@ -1,0 +1,39 @@
+---
+title: "NonD rmEco"
+author: "Kim Cuddington"
+date: "14/06/2022"
+output:
+  html_document: 
+    keep_md: yes
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## NonD scaling
+
+Starting from
+
+$$\frac{dn}{dt}=t_0N \left[r \left(1-\frac{n}{1+e}\right)-\frac{\frac{a}{K} pP_0}{n+\frac{b}{k}}  \right]\\
+\frac{dp}{dt}=t_0p\left[\frac{agn}{N+\frac{b}{K}}-d_0+d_1 \frac{K}{c}e \right]\\
+\frac{de}{dt}=t_0\left[-je+\frac{mc}{K}pP_0\right]$$
+
+
+let $t_0=\frac{1}{jr}$
+
+$$\frac{dn}{dt}=\frac{1}{jr}n \left[r \left(1-\frac{n}{1+e}\right)-\frac{\frac{a}{K} pP_0}{n+\frac{b}{k}}  \right]\\
+\frac{dp}{dt}=\frac{1}{jr}p\left[\frac{agn}{N+\frac{b}{K}}-d_0+d_1 \frac{K}{c}e \right]\\
+\frac{de}{dt}=\frac{1}{jr}\left[-je+\frac{mc}{K}pP_0\right]$$
+
+let $P_0=\frac{K}{mcr}$
+$$\frac{dn}{dt}=\frac{1}{j}n \left[ 1-\frac{n}{1+e}-\frac{ p\frac{aK}{rmc}}{n+\frac{b}{k}}  \right]\\
+\frac{dp}{dt}=\frac{1}{j}p\left[\frac{\frac{ag}{r}n}{N+\frac{b}{K}}-\frac{d_0}{r}+\frac{d_1}{r} \frac{K}{c}e \right]\\
+\frac{de}{dt}=\frac{1}{r}\left[-e+\frac{r}{j}p\right]$$
+
+let $\alpha=\frac{aKr}{mc}$, $\beta=\frac{b}{K}$, $\gamma=\frac{ag}{r}$,$\delta=\frac{d_0}{r}$, $\rho=\frac{d_1 K}{rc}$
+
+$$\frac{dn}{dt}=\frac{1}{j}n \left[ 1-\frac{n}{1+e}-\frac{ p\alpha}{n+\beta}  \right]\\
+\frac{dp}{dt}=\frac{1}{j}p\left[\frac{\gamma n}{N+\beta}-\delta+\rho e \right]\\
+\frac{de}{dt}=\frac{1}{r}\left[-e+\frac{r}{j}p\right]$$
